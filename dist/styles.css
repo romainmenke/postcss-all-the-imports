@@ -1,0 +1,22 @@
+@layer google-fonts {@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/tangerine/v17/IurY6Y5j_oScZZow4VOxCZZJ.ttf) format('truetype');
+}
+}@layer base {
+html {
+	margin: 0;
+	padding: 0;
+}
+}@layer base {
+:root {
+	--color: hotpink;
+}
+}@layer components {
+.card {
+	color: var(--color);
+}
+}
+
+/*# sourceMappingURL=styles.css.map */
